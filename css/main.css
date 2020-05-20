@@ -1,0 +1,161 @@
+
+
+
+
+.principio{
+
+ /*border:1px solid red;*/
+ position: relative;
+ width:100%;
+ 
+
+}
+
+/*.container{*/
+
+ /*border:1px solid red;*/
+/* position: relative;
+ width:100%;
+ float: left;
+
+}*/
+
+
+h1{
+
+  color: pink;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(200,100,1,0.5);
+  border-bottom: dotted 5px; 
+  border-top: dashed 5px orange;
+  border-radius: 50px;
+  text-shadow: 5px 2px 2px black;
+
+}
+
+.fondo{
+/*
+background-image: url("../images/pagina.png");*/
+/*height: 50%;*/
+/*background-repeat: no-repeat;*/
+/*background-position: center;
+
+background-attachment: fixed;
+background-size: contain;*/
+
+/*background: repeating-linear-gradient(-25deg,pink 50%,blue 60%,black);*/
+/*background: radial-gradient(circle,yellow 50%,blue 60%,black);*/
+
+}
+
+.titulo{
+
+ position: relative;
+ width: 100%;
+ text-align: center;
+ align-items: center;
+
+}
+
+
+
+
+
+
+body{
+  background-color: rgba(200,100,1,0.3);
+  font-family: 'Indie Flower', cursive;
+  /*Usar para Responsive y pre-wrad*/
+  /*white-space:pre-line;*/
+  word-spacing: 2px;
+  font-size: 100%;
+
+
+}
+
+/*.thumb{
+ border: 5px solid gray;
+ margin: 10px;
+ width: 150px;
+
+
+}
+
+.thumb:hover{
+
+  width: 250px;
+  box-shadow: 0 5px 2px rgba(0,140,186,0.8);
+}*/
+
+
+.text{
+ text-align: center;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.imgtext{
+position: absolute;
+top: 8px;
+left: 16px;
+font-size: 20px;
+color: white;
+}
+
+
+img{
+
+filter:grayscale(1); 
+
+
+}
+
+
+
+
+img:hover{
+
+/*filter: blur(0);*/
+/*filter: brightness(1);*/
+ /*filter: contrast(1);*/
+filter: grayscale(0);
+/*filter: hue-rotate(360deg);*/
+/*filter: invert(1);*/
+/*filter: saturate(3);*/
+/*filter: sepia(0.1);*/
+
+}
+
+
+div .polaroid {
+ background-color: white;
+ padding: 10px;
+ width: 500px;
+ height: 400px;
+/* margin-top: 20px 10px;*/
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.5)
+ 
+ 
+
+}
+
+.foto-cont{
+position: relative;
+ width: 50%;
+ float: left;
+ margin-top: auto;
+
+
+}
+
+.foto-cont2{
+position: relative;
+ width: 50%;
+ float: left;
+margin-top: auto;
+
+}
+
+
+
